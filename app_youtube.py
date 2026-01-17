@@ -4,7 +4,7 @@ import random
 import datetime
 
 # --- KONFIGURASI HALAMAN ---
-st.set_page_config(page_title="YouTube SEO Optimizer", page_icon="🚀", layout="centered")
+st.set_page_config(page_title="YouTube SEO Optimizer By Sab", page_icon="🚀", layout="centered")
 
 # --- DATABASE ---
 POWER_WORDS_DB = [
@@ -208,4 +208,5 @@ In this video, I will show you **{keyword}** and {title}. This is the best guide
         st.text_area("Copy for YouTube Description:", desc_template, height=200)
 
     else:
+
         st.error("Please enter both Keyword and Title.")
